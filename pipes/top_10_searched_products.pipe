@@ -1,0 +1,32 @@
+TOKEN "top_10_searched_products_endpoint_read_0772" READ
+
+NODE search_events
+SQL >
+
+    SELECT * 
+    FROM shopping_data
+    WHERE event == 'search'
+
+
+
+
+NODE aggregate_by_product_id
+SQL >
+
+    SELECT product_id, count() as total 
+    FROM search_events
+    GROUP BY product_id
+    ORDER BY total DESC
+
+
+
+
+NODE endpoint
+SQL >
+
+    SELECT product_id, total 
+    FROM aggregate_by_product_id
+    LIMIT 10
+
+
+

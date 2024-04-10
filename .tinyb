@@ -1,0 +1,13 @@
+{
+    "host": "https://api.tinybird.co",
+    "id": "a5c7706b-dd36-423e-a1d5-dfe9b4e90d25",
+    "name": "Test_lorena",
+    "scope": "user",
+    "token": "p.eyJ1IjogImE1Yzc3MDZiLWRkMzYtNDIzZS1hMWQ1LWRmZTliNGU5MGQyNSIsICJpZCI6ICIwMTEzNDEwMi00MzNjLTRkODItYTY3ZS0wZDJiODA3ZDQ1MTAiLCAiaG9zdCI6ICJldV9zaGFyZWQifQ.5yg0rjSmreTtMAgHjk5YSn7FTMhZUE5lVDBZT69BSZk",
+    "tokens": {
+        "https://api.tinybird.co": "p.eyJ1IjogImE1Yzc3MDZiLWRkMzYtNDIzZS1hMWQ1LWRmZTliNGU5MGQyNSIsICJpZCI6ICIwMTEzNDEwMi00MzNjLTRkODItYTY3ZS0wZDJiODA3ZDQ1MTAiLCAiaG9zdCI6ICJldV9zaGFyZWQifQ.5yg0rjSmreTtMAgHjk5YSn7FTMhZUE5lVDBZT69BSZk"
+    },
+    "user_email": "lorena.gonzales@payfit.com",
+    "user_id": "8e26b8d8-1fe7-424a-8a9e-1c2e51f2b47f",
+    "version": "3.7.0"
+}

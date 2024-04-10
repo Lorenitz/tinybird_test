@@ -1,0 +1,11 @@
+
+SCHEMA >
+    `date` DateTime,
+    `product_id` String,
+    `user_id` Int64,
+    `event` String,
+    `extra_data` String
+
+ENGINE "MergeTree"
+ENGINE_PARTITION_KEY "toYear(date)"
+ENGINE_SORTING_KEY "date, user_id, event, extra_data"
